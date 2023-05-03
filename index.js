@@ -1,11 +1,20 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const port =process.env.PORT || 5000;
 
+const chefData = require('./data/chefData.json')
+
+app.use(cors());
+
 app.get('/', (req, res)=>{
-    res.send('RecipeRiot is comming...')
+    res.send('RecipeRiot is comming...');
+})
+
+app.get('/chefData',(req,res)=>{
+    res.send(chefData);
 })
 
 app.listen(port, ()=>{
-    console.log(`Recipe API is running on port: ${port}`)
-})
+    console.log(`Recipe API is running on port: ${port}`);
+});
