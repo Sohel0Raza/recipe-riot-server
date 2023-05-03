@@ -1,0 +1,39 @@
+[  
+    {
+        "name": "Jiro Ono",
+        "picture": "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/article_1200_800_fallback/public/Original_16236_jiro-ono.png?itok=VUB4pTlU",    
+        "years_of_experience": 70,    "num_of_recipes": 100,    
+        "likes": 50000  
+    },  
+    {
+        "name": "Masaharu Morimoto",    
+        "picture": "https://hauteliving.com/wp-content/uploads/2020/02/unspecified.jpeg",    
+        "years_of_experience": 45,    
+        "num_of_recipes": 200,    
+        "likes": 75000  
+    },  
+    {
+        "name": "Nobu Matsuhisa",    
+        "picture": "https://www.cuisinenet.com/wp-content/uploads/chef-nobuyuki-matsuhisa.jpg",    
+        "years_of_experience": 40,    
+        "num_of_recipes": 150,    
+        "likes": 60000  
+    },  
+    {
+        "name": "Hirohisa Koyama",    
+        "picture": "https://www.japan.go.jp/tomodachi/_src/7934730/26_01.jpg?v=1582280261911",    
+        "years_of_experience": 30,    
+        "num_of_recipes": 75,    
+        "likes": 25000  },  
+    {
+        "name": "Yoshihiro Murata",    
+        "picture": "https://www.theworlds50best.com/stories/filestore/jpg/Stories20-AsiaIcon-Kitchen-.jpg",    
+        "years_of_experience": 50,    
+        "num_of_recipes": 120,    
+        "likes": 40000  }, 
+    {
+        "name": "Takashi Saito",    
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/AV4A3626_%2827474914309%29.jpg/1200px-AV4A3626_%2827474914309%29.jpg",    
+        "years_of_experience": 25,    
+        "num_of_recipes": 50,    
+        "likes": 20000  }]
