@@ -1,39 +1,170 @@
-[  
-    {
-        "name": "Jiro Ono",
-        "picture": "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/article_1200_800_fallback/public/Original_16236_jiro-ono.png?itok=VUB4pTlU",    
-        "years_of_experience": 70,    "num_of_recipes": 100,    
-        "likes": 50000  
-    },  
-    {
-        "name": "Masaharu Morimoto",    
-        "picture": "https://hauteliving.com/wp-content/uploads/2020/02/unspecified.jpeg",    
-        "years_of_experience": 45,    
-        "num_of_recipes": 200,    
-        "likes": 75000  
-    },  
-    {
-        "name": "Nobu Matsuhisa",    
-        "picture": "https://www.cuisinenet.com/wp-content/uploads/chef-nobuyuki-matsuhisa.jpg",    
-        "years_of_experience": 40,    
-        "num_of_recipes": 150,    
-        "likes": 60000  
-    },  
-    {
-        "name": "Hirohisa Koyama",    
-        "picture": "https://www.japan.go.jp/tomodachi/_src/7934730/26_01.jpg?v=1582280261911",    
-        "years_of_experience": 30,    
-        "num_of_recipes": 75,    
-        "likes": 25000  },  
-    {
-        "name": "Yoshihiro Murata",    
-        "picture": "https://www.theworlds50best.com/stories/filestore/jpg/Stories20-AsiaIcon-Kitchen-.jpg",    
-        "years_of_experience": 50,    
-        "num_of_recipes": 120,    
-        "likes": 40000  }, 
-    {
-        "name": "Takashi Saito",    
-        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/AV4A3626_%2827474914309%29.jpg/1200px-AV4A3626_%2827474914309%29.jpg",    
-        "years_of_experience": 25,    
-        "num_of_recipes": 50,    
-        "likes": 20000  }]
+[
+  {
+    "id": 1,
+    "name": "Jiro Ono",
+    "picture": "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/article_1200_800_fallback/public/Original_16236_jiro-ono.png?itok=VUB4pTlU",
+    "years_of_experience": 70,
+    "num_of_recipes": 100,
+    "likes": 50,
+    "bio": "Jiro Ono is a Japanese chef who is considered one of the greatest sushi chefs in the world. He is the owner of Sukiyabashi Jiro, a three-Michelin-starred restaurant in Tokyo. Ono is known for his attention to detail and dedication to his craft.",
+    "recipes": [
+      {
+        "name": "Sushi",
+        "cooking_method": "Sushi rice is prepared with sushi vinegar and a variety of fresh seafood is sliced and served on top of the rice.",
+        "rating": 9.5
+      },
+      {
+        "name": "Chirashi",
+        "cooking_method": "A bed of sushi rice is topped with a variety of sashimi and other ingredients such as egg, cucumber, and pickled vegetables.",
+        "rating": 8.5
+      },
+      {
+        "name": "Sashimi",
+        "cooking_method": "Fresh, raw fish is sliced into bite-sized pieces and served with soy sauce and wasabi.",
+        "rating": 8.0
+      }
+    ],
+    "ingredients": ["Rice", "Sushi vinegar", "Fish", "Wasabi", "Soy sauce"]
+  },
+  {
+    "id": 2,
+    "name": "Masaharu Morimoto",
+    "picture": "https://hauteliving.com/wp-content/uploads/2020/02/unspecified.jpeg",
+    "years_of_experience": 45,
+    "num_of_recipes": 200,
+    "likes": 75000,
+    "bio": "Masaharu Morimoto is a Japanese chef who is known for his appearances on the television show Iron Chef and his restaurants around the world. He blends traditional Japanese cooking techniques with a modern twist.",
+    "recipes": [
+      {
+        "name": "Sushi",
+        "cooking_method": "Sushi rice is prepared with sushi vinegar and a variety of fresh seafood is sliced and served on top of the rice.",
+        "rating": 9.5
+      },
+      {
+        "name": "Chirashi",
+        "cooking_method": "A bed of sushi rice is topped with a variety of sashimi and other ingredients such as egg, cucumber, and pickled vegetables.",
+        "rating": 8.5
+      },
+      {
+        "name": "Sashimi",
+        "cooking_method": "Fresh, raw fish is sliced into bite-sized pieces and served with soy sauce and wasabi.",
+        "rating": 8.0
+      }
+    ],
+    "ingredients": ["Tuna", "Pizza dough", "Pork belly", "Beef", "Soy sauce"]
+  },
+  {
+    "id": 3,
+    "name": "Nobu Matsuhisa",
+    "picture": "https://www.cuisinenet.com/wp-content/uploads/chef-nobuyuki-matsuhisa.jpg",
+    "years_of_experience": 40,
+    "num_of_recipes": 150,
+    "likes": 60,
+    "bio": "Nobu Matsuhisa is a Japanese chef and restaurateur who has restaurants around the world. He is known for his fusion cuisine, which blends traditional Japanese dishes with South American ingredients and techniques.",
+    "recipes": [
+      {
+        "name": "Sushi",
+        "cooking_method": "Sushi rice is prepared with sushi vinegar and a variety of fresh seafood is sliced and served on top of the rice.",
+        "rating": 9.5
+      },
+      {
+        "name": "Chirashi",
+        "cooking_method": "A bed of sushi rice is topped with a variety of sashimi and other ingredients such as egg, cucumber, and pickled vegetables.",
+        "rating": 8.5
+      },
+      {
+        "name": "Sashimi",
+        "cooking_method": "Fresh, raw fish is sliced into bite-sized pieces and served with soy sauce and wasabi.",
+        "rating": 8.0
+      }
+    ],
+    "ingredients": [
+      "Black cod",
+      "Miso paste",
+      "Yellowtail",
+      "Jalapeño",
+      "Shrimp"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Hirohisa Koyama",
+    "picture": "https://www.japan.go.jp/tomodachi/_src/7934730/26_01.jpg?v=1582280261911",
+    "years_of_experience": 30,
+    "num_of_recipes": 75,
+    "likes": 25,
+    "bio": "Hirohisa Koyama is a Japanese chef who is the owner and chef of Hirohisa restaurant in New York City. He specializes in kaiseki cuisine, which is a traditional Japanese multi-course meal that emphasizes seasonality and presentation.",
+    "recipes": [
+      {
+        "name": "Sushi",
+        "cooking_method": "Sushi rice is prepared with sushi vinegar and a variety of fresh seafood is sliced and served on top of the rice.",
+        "rating": 9.5
+      },
+      {
+        "name": "Chirashi",
+        "cooking_method": "A bed of sushi rice is topped with a variety of sashimi and other ingredients such as egg, cucumber, and pickled vegetables.",
+        "rating": 8.5
+      },
+      {
+        "name": "Sashimi",
+        "cooking_method": "Fresh, raw fish is sliced into bite-sized pieces and served with soy sauce and wasabi.",
+        "rating": 8.0
+      }
+    ],
+    "ingredients": ["Fish", "Garlic", "Beef", "Eel", "Rice"]
+  },
+  {
+    "id": 5,
+    "name": "Yoshihiro Murata",
+    "picture": "https://www.theworlds50best.com/stories/filestore/jpg/Stories20-AsiaIcon-Kitchen-.jpg",
+    "years_of_experience": 50,
+    "num_of_recipes": 120,
+    "likes": 40,
+    "bio": "Yoshihiro Murata is a Japanese chef who is the third-generation owner and head chef of the three-Michelin-starred Kikunoi restaurant in Kyoto. He is known for his traditional kaiseki cuisine, which showcases the flavors and ingredients of each season.",
+    "recipes": [
+      {
+        "name": "Sushi",
+        "cooking_method": "Sushi rice is prepared with sushi vinegar and a variety of fresh seafood is sliced and served on top of the rice.",
+        "rating": 9.5
+      },
+      {
+        "name": "Chirashi",
+        "cooking_method": "A bed of sushi rice is topped with a variety of sashimi and other ingredients such as egg, cucumber, and pickled vegetables.",
+        "rating": 8.5
+      },
+      {
+        "name": "Sashimi",
+        "cooking_method": "Fresh, raw fish is sliced into bite-sized pieces and served with soy sauce and wasabi.",
+        "rating": 8.0
+      }
+    ],
+    "ingredients": ["Wagyu beef", "Tofu", "Fish", "Miso paste", "Vegetables"]
+  },
+  {
+    "id": 6,
+    "name": "Takashi Saito",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/AV4A3626_%2827474914309%29.jpg/1200px-AV4A3626_%2827474914309%29.jpg",
+    "years_of_experience": 25,
+    "num_of_recipes": 50,
+    "likes": 20,
+    "bio": "Yoshihiro Murata is a Japanese chef who is the third-generation owner and head chef of the three-Michelin-starred Kikunoi restaurant in Kyoto. He is known for his traditional kaiseki cuisine, which showcases the flavors and ingredients of each season.",
+    "recipes": [
+      {
+        "name": "Sushi",
+        "cooking_method": "Sushi rice is prepared with sushi vinegar and a variety of fresh seafood is sliced and served on top of the rice.",
+        "rating": 9.5
+      },
+      {
+        "name": "Chirashi",
+        "cooking_method": "A bed of sushi rice is topped with a variety of sashimi and other ingredients such as egg, cucumber, and pickled vegetables.",
+        "rating": 8.5
+      },
+      {
+        "name": "Sashimi",
+        "cooking_method": "Fresh, raw fish is sliced into bite-sized pieces and served with soy sauce and wasabi.",
+        "rating": 8.0
+      }
+    ],
+    "ingredients": ["Wagyu beef", "Tofu", "Fish", "Miso paste", "Vegetables"]
+  }
+]
